@@ -43,10 +43,9 @@ vmap s S
 " Link wrapper
 vmap <Space>l c<a href="<C-r>+"><C-r>"</a>
 
-" Tag <a href="http://favstar.fm/users/robertnyman/recent">wrapper</a>
+" Tag wrapper
 map <Leader>w ysip<C-t>
 vmap <Space>w sip<C-t>
-
 
 " For navigating wrapped lines
 nnoremap j gj
