@@ -9,6 +9,7 @@
 " vim-snipmate
 " vim-snippets
 " vim-surround
+" vim-copy-as-rtf
 
 set nocompatible
 set backspace=indent,eol,start
