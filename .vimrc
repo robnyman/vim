@@ -10,6 +10,7 @@
 " vim-snippets
 " vim-surround
 " vim-copy-as-rtf
+" DistractFree
 
 set nocompatible
 set backspace=indent,eol,start
