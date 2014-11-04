@@ -11,6 +11,7 @@
 " vim-surround
 " vim-copy-as-rtf
 " DistractFree
+" Narrow Region (NrrwRgn)
 
 set nocompatible
 set backspace=indent,eol,start
@@ -49,9 +50,11 @@ vmap <Space>l c<a href="<C-r>+"><C-r>"</a>
 map <Leader>w ysip<C-t>
 vmap <Space>w sip<C-t>
 
-" For navigating wrapped lines
+" For navigating wrapped lines with j, k and arrow keys
 nnoremap j gj
-nnoremap k gk
+nnoremap j gj
+nnoremap <Up> g<Up>
+nnoremap <Down> g<Down>
 
 " Easy window navigation
 map <C-h> <C-w>h
@@ -95,8 +98,10 @@ vnoremap <S-Tab> <gv
 
 " DistractFree
 nmap <silent> <Space>d <Plug>DistractFreeToggle
-let g:distractfree_width = "70%"
+let g:distractfree_width = "60%"
 let g:distractfree_height= "80%"
+let g:distractfree_colorscheme = "darkroom"
+
 
 " Border split colors
-hi vertsplit guifg=bg guibg=bg
+hi vertsplit guifg=#141414 guibg=#141414 gui=NONE
