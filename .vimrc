@@ -92,3 +92,6 @@ endif
 " Indenting code blocks
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
+
+" DistractFree
+nmap <silent> <Space>d <Plug>DistractFreeToggle
