@@ -95,3 +95,8 @@ vnoremap <S-Tab> <gv
 
 " DistractFree
 nmap <silent> <Space>d <Plug>DistractFreeToggle
+let g:distractfree_width = "70%"
+let g:distractfree_height= "80%"
+
+" Border split colors
+hi vertsplit guifg=bg guibg=bg
